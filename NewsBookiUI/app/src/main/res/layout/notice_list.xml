@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/background_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/examplemain"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rect2" />
+
+    <ImageView
+        android:id="@+id/collegeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/college20" />
+
+    <ImageView
+        android:id="@+id/registericon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/examplemain"
+        app:layout_constraintStart_toEndOf="@+id/collegeicon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/register21" />
+
+    <ImageView
+        android:id="@+id/examplemain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/exampletime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registericon"
+        app:srcCompat="@drawable/announcement" />
+
+    <ImageView
+        android:id="@+id/exampletime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/examplemain"
+        app:srcCompat="@drawable/wdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
