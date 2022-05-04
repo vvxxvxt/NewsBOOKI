@@ -8,6 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    private ListData[] listData = {
+            new ListData("2022학년도 1학기 폐강공고 및 폐강과목 수강신청자 수강정정 안내", "작성일:2022.05.04"),
+            new ListData("2022학년도 1학기 폐강공고 및 폐강과목 수강신청자 수강정정 안내2", "작성일:2022.05.05"),
+            new ListData("2022학년도 1학기 폐강공고 및 폐강과목 수강신청자 수강정정 안내3", "작성일:2022.05.06")
+    };
+
     private MenuData[] menuData = {
             new MenuData(R.drawable.rect43, R.drawable.notice_pressed, R.drawable.noticeicon_pressed),
             new MenuData(R.drawable.rect44, R.drawable.news, R.drawable.newsicon),
@@ -15,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
             new MenuData(R.drawable.rect44, R.drawable.my, R.drawable.myicon)
     };
 
-    private int data = 10;
     private ListView mList;
     private com.newbook.newsbooki.MyAdapter mAdapter;
     private GridView menuView;
@@ -27,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mList = (ListView) findViewById(R.id.list);
-        mAdapter = new com.newbook.newsbooki.MyAdapter(this, data);
+        mAdapter = new com.newbook.newsbooki.MyAdapter(this, listData);
         mList.setAdapter(mAdapter);
 
         menuView = (GridView) findViewById(R.id.menu);
