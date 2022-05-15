@@ -13,16 +13,21 @@ public class MyAdapter extends BaseAdapter {
     //private int data;
     private com.newbook.newsbooki.ListData[] data;
     private Context ctx;
+
     /*
     public MyAdapter(Context ctx,int data) {
         this.data = data;
         this.ctx = ctx;
     }
+
      */
+
+
     public MyAdapter(Context ctx, com.newbook.newsbooki.ListData[] data) {
         this.data = data;
         this.ctx = ctx;
     }
+
 
     @Override
     public int getCount() {
