@@ -25,23 +25,23 @@ Splash 화면과 학사 공지사항 화면
 
 학사 공지사항 자세한 화면 - 이미지
 
-<img width="30%" src="{https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/4.gif"/>
+<img width="30%" src="https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/4.gif"/>
 
 장학 공지사항 화면
 
-<img width="30%" src="{https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/5.gif"/>
+<img width="30%" src="https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/5.gif"/>
 
 비교과 공지사항 화면
 
-<img width="30%" src="{https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/6.gif"/>
+<img width="30%" src="https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/6.gif"/>
 
 학사일정 화면 - 일정 선택 시 캘린더뷰 기간 표시
 
-<img width="30%" src="{https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/8.gif"/>
+<img width="30%" src="https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/8.gif"/>
 
 학사일정 화면 - 월별 이동
 
-<img width="30%" src="{https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/9.gif"/>
+<img width="30%" src="https://github.com/vvxxvxt/NewsBOOKI/blob/2458ef51ee1fd5327d065fed3f5bd4ce68ee0e7f/Project%20Asset/9.gif"/>
 
 키워드 알림 화면 - 키워드 구독
 
