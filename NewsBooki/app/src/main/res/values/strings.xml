@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NewsBooki</string>
+    <string name="open">navbar_open</string>
+    <string name="closed">navbar_closed</string>
 </resources>
