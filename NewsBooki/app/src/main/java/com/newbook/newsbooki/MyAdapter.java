@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MyAdapter extends BaseAdapter {
 
-    //private int data;
+    //private String list[];
     private com.newbook.newsbooki.ListData[] data;
     private Context ctx;
 
@@ -36,6 +36,7 @@ public class MyAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int i) {
+        //return list[2];
         return null;
     }
 
@@ -55,6 +56,13 @@ public class MyAdapter extends BaseAdapter {
         listTitle.setText(data[position].listTitle);
         TextView listDate = (TextView) convertView.findViewById(R.id.list_date);
         listDate.setText(data[position].listDate);
+        /*
+        //getItem으로 내용 가져오기 위한 코드
+        list = new String[2];
+        list[0] = data[position].listTitle;
+        list[1] = data[position].listDate;
+
+         */
 
         return convertView;
     }
